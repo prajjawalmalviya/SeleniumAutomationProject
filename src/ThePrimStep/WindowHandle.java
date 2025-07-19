@@ -1,14 +1,10 @@
 package ThePrimStep;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+
 
 public class WindowHandle {
 
@@ -24,11 +20,11 @@ public class WindowHandle {
 
 		driver.switchTo().newWindow(WindowType.TAB);
 		
-		Set<String> window = driver.getWindowHandles();
+		/*Set<String> window = driver.getWindowHandles();
 		
 		List<String> handle = new ArrayList<String>();
 		handle.addAll(window);
-		
+		*/
 
 		
 		
